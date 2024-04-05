@@ -1,0 +1,34 @@
+[2024-04-05 19:32:39,215] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-12-05T00:00:00+00:00 [queued]>
+[2024-04-05 19:32:39,225] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-12-05T00:00:00+00:00 [queued]>
+[2024-04-05 19:32:39,226] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-04-05 19:32:39,226] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-04-05 19:32:39,226] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-04-05 19:32:39,254] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta> on 2022-12-05 00:00:00+00:00
+[2024-04-05 19:32:39,258] {standard_task_runner.py:52} INFO - Started process 724015 to run task
+[2024-04-05 19:32:39,261] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'cria_pasta', 'scheduled__2022-12-05T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/extrai_dados_climaticos.py', '--cfg-path', '/tmp/tmpm53t2s1j', '--error-file', '/tmp/tmpv5qof2a_']
+[2024-04-05 19:32:39,262] {standard_task_runner.py:80} INFO - Job 30: Subtask cria_pasta
+[2024-04-05 19:32:39,319] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.cria_pasta scheduled__2022-12-05T00:00:00+00:00 [running]> on host TEC017860.
+[2024-04-05 19:32:39,396] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=cria_pasta
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-05T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-05T00:00:00+00:00
+[2024-04-05 19:32:39,397] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2024-04-05 19:32:39,398] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'mkdir -p "/home/millenagena/Documents/airflowalura/semana=2022-12-12"']
+[2024-04-05 19:32:39,407] {subprocess.py:85} INFO - Output:
+[2024-04-05 19:32:39,409] {subprocess.py:92} INFO - mkdir: cannot create directory ‘/home/millenagena’: Permission denied
+[2024-04-05 19:32:39,410] {subprocess.py:96} INFO - Command exited with return code 1
+[2024-04-05 19:32:39,424] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/operators/bash.py", line 194, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-04-05 19:32:39,428] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=dados_climaticos, task_id=cria_pasta, execution_date=20221205T000000, start_date=20240405T223239, end_date=20240405T223239
+[2024-04-05 19:32:39,448] {standard_task_runner.py:92} ERROR - Failed to execute job 30 for task cria_pasta (Bash command failed. The command returned a non-zero exit code 1.; 724015)
+[2024-04-05 19:32:39,493] {local_task_job.py:156} INFO - Task exited with return code 1
+[2024-04-05 19:32:39,539] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

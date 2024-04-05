@@ -1,0 +1,382 @@
+[2024-04-04 20:29:09,692] {processor.py:153} INFO - Started process (PID=569884) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:29:09,692] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:29:09,693] {logging_mixin.py:115} INFO - [2024-04-04 20:29:09,693] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:29:09,696] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:29:09,756] {logging_mixin.py:115} INFO - [2024-04-04 20:29:09,756] {manager.py:508} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-04-04 20:29:09,768] {logging_mixin.py:115} INFO - [2024-04-04 20:29:09,768] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-04-04 20:29:09,781] {logging_mixin.py:115} INFO - [2024-04-04 20:29:09,781] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-04-04 20:29:09,781] {logging_mixin.py:115} INFO - [2024-04-04 20:29:09,781] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:29:09,786] {logging_mixin.py:115} INFO - [2024-04-04 20:29:09,786] {dag.py:2398} INFO - Creating ORM DAG for example_skip_dag
+[2024-04-04 20:29:09,792] {logging_mixin.py:115} INFO - [2024-04-04 20:29:09,792] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:29:09.791861+00:00, run_after=2024-04-04T23:29:09.791861+00:00
+[2024-04-04 20:29:09,810] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.119 seconds
+[2024-04-04 20:29:44,751] {processor.py:153} INFO - Started process (PID=570212) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:29:44,753] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:29:44,754] {logging_mixin.py:115} INFO - [2024-04-04 20:29:44,754] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:29:44,762] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:29:44,785] {logging_mixin.py:115} INFO - [2024-04-04 20:29:44,785] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:29:44,830] {logging_mixin.py:115} INFO - [2024-04-04 20:29:44,830] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:29:44.830027+00:00, run_after=2024-04-04T23:29:44.830027+00:00
+[2024-04-04 20:29:44,864] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.116 seconds
+[2024-04-04 20:30:18,064] {processor.py:153} INFO - Started process (PID=570387) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:30:18,068] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:30:18,069] {logging_mixin.py:115} INFO - [2024-04-04 20:30:18,068] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:30:18,072] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:30:18,082] {logging_mixin.py:115} INFO - [2024-04-04 20:30:18,082] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:30:18,094] {logging_mixin.py:115} INFO - [2024-04-04 20:30:18,094] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:30:18.094132+00:00, run_after=2024-04-04T23:30:18.094132+00:00
+[2024-04-04 20:30:18,110] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.049 seconds
+[2024-04-04 20:30:51,422] {processor.py:153} INFO - Started process (PID=570521) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:30:51,423] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:30:51,423] {logging_mixin.py:115} INFO - [2024-04-04 20:30:51,423] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:30:51,426] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:30:51,443] {logging_mixin.py:115} INFO - [2024-04-04 20:30:51,443] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:30:51,455] {logging_mixin.py:115} INFO - [2024-04-04 20:30:51,455] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:30:51.454927+00:00, run_after=2024-04-04T23:30:51.454927+00:00
+[2024-04-04 20:30:51,470] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.049 seconds
+[2024-04-04 20:31:24,172] {processor.py:153} INFO - Started process (PID=570645) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:31:24,174] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:31:24,175] {logging_mixin.py:115} INFO - [2024-04-04 20:31:24,174] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:31:24,178] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:31:24,190] {logging_mixin.py:115} INFO - [2024-04-04 20:31:24,190] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:31:24,201] {logging_mixin.py:115} INFO - [2024-04-04 20:31:24,201] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:31:24.201671+00:00, run_after=2024-04-04T23:31:24.201671+00:00
+[2024-04-04 20:31:24,216] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2024-04-04 20:31:58,017] {processor.py:153} INFO - Started process (PID=570783) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:31:58,020] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:31:58,020] {logging_mixin.py:115} INFO - [2024-04-04 20:31:58,020] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:31:58,023] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:31:58,033] {logging_mixin.py:115} INFO - [2024-04-04 20:31:58,033] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:31:58,044] {logging_mixin.py:115} INFO - [2024-04-04 20:31:58,044] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:31:58.044070+00:00, run_after=2024-04-04T23:31:58.044070+00:00
+[2024-04-04 20:31:58,059] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.044 seconds
+[2024-04-04 20:32:29,956] {processor.py:153} INFO - Started process (PID=570905) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:32:29,957] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:32:29,958] {logging_mixin.py:115} INFO - [2024-04-04 20:32:29,958] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:32:29,962] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:32:29,974] {logging_mixin.py:115} INFO - [2024-04-04 20:32:29,974] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:32:29,987] {logging_mixin.py:115} INFO - [2024-04-04 20:32:29,987] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:32:29.987122+00:00, run_after=2024-04-04T23:32:29.987122+00:00
+[2024-04-04 20:32:30,005] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.050 seconds
+[2024-04-04 20:32:57,335] {processor.py:153} INFO - Started process (PID=571155) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:32:57,335] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:32:57,336] {logging_mixin.py:115} INFO - [2024-04-04 20:32:57,336] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:32:57,339] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:32:57,353] {logging_mixin.py:115} INFO - [2024-04-04 20:32:57,353] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:32:57,363] {logging_mixin.py:115} INFO - [2024-04-04 20:32:57,362] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:32:57.362795+00:00, run_after=2024-04-04T23:32:57.362795+00:00
+[2024-04-04 20:32:57,381] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.049 seconds
+[2024-04-04 20:33:28,521] {processor.py:153} INFO - Started process (PID=571285) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:33:28,523] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:33:28,524] {logging_mixin.py:115} INFO - [2024-04-04 20:33:28,524] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:33:28,527] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:33:28,539] {logging_mixin.py:115} INFO - [2024-04-04 20:33:28,539] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:33:28,549] {logging_mixin.py:115} INFO - [2024-04-04 20:33:28,549] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:33:28.549147+00:00, run_after=2024-04-04T23:33:28.549147+00:00
+[2024-04-04 20:33:28,565] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.046 seconds
+[2024-04-04 20:34:03,085] {processor.py:153} INFO - Started process (PID=571424) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:34:03,085] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:34:03,086] {logging_mixin.py:115} INFO - [2024-04-04 20:34:03,086] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:34:03,090] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:34:03,102] {logging_mixin.py:115} INFO - [2024-04-04 20:34:03,102] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:34:03,111] {logging_mixin.py:115} INFO - [2024-04-04 20:34:03,111] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:34:03.110855+00:00, run_after=2024-04-04T23:34:03.110855+00:00
+[2024-04-04 20:34:03,127] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.045 seconds
+[2024-04-04 20:34:36,648] {processor.py:153} INFO - Started process (PID=571554) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:34:36,651] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:34:36,651] {logging_mixin.py:115} INFO - [2024-04-04 20:34:36,651] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:34:36,655] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:34:36,666] {logging_mixin.py:115} INFO - [2024-04-04 20:34:36,666] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:34:36,675] {logging_mixin.py:115} INFO - [2024-04-04 20:34:36,675] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:34:36.675155+00:00, run_after=2024-04-04T23:34:36.675155+00:00
+[2024-04-04 20:34:36,692] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.046 seconds
+[2024-04-04 20:35:09,811] {processor.py:153} INFO - Started process (PID=571686) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:35:09,814] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:35:09,814] {logging_mixin.py:115} INFO - [2024-04-04 20:35:09,814] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:35:09,818] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:35:09,829] {logging_mixin.py:115} INFO - [2024-04-04 20:35:09,829] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:35:09,838] {logging_mixin.py:115} INFO - [2024-04-04 20:35:09,838] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:35:09.838229+00:00, run_after=2024-04-04T23:35:09.838229+00:00
+[2024-04-04 20:35:09,854] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.045 seconds
+[2024-04-04 20:35:42,474] {processor.py:153} INFO - Started process (PID=571818) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:35:42,476] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:35:42,476] {logging_mixin.py:115} INFO - [2024-04-04 20:35:42,476] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:35:42,479] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:35:42,491] {logging_mixin.py:115} INFO - [2024-04-04 20:35:42,491] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:35:42,500] {logging_mixin.py:115} INFO - [2024-04-04 20:35:42,500] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:35:42.500442+00:00, run_after=2024-04-04T23:35:42.500442+00:00
+[2024-04-04 20:35:42,516] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.044 seconds
+[2024-04-04 20:36:25,562] {processor.py:153} INFO - Started process (PID=571999) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:36:25,564] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:36:25,565] {logging_mixin.py:115} INFO - [2024-04-04 20:36:25,565] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:36:25,568] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:36:25,579] {logging_mixin.py:115} INFO - [2024-04-04 20:36:25,579] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:36:25,589] {logging_mixin.py:115} INFO - [2024-04-04 20:36:25,589] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:36:25.589238+00:00, run_after=2024-04-04T23:36:25.589238+00:00
+[2024-04-04 20:36:25,603] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.043 seconds
+[2024-04-04 20:36:58,568] {processor.py:153} INFO - Started process (PID=572128) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:36:58,571] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:36:58,571] {logging_mixin.py:115} INFO - [2024-04-04 20:36:58,571] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:36:58,575] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:36:58,587] {logging_mixin.py:115} INFO - [2024-04-04 20:36:58,587] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:36:58,600] {logging_mixin.py:115} INFO - [2024-04-04 20:36:58,600] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:36:58.600152+00:00, run_after=2024-04-04T23:36:58.600152+00:00
+[2024-04-04 20:36:58,620] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.053 seconds
+[2024-04-04 20:37:34,591] {processor.py:153} INFO - Started process (PID=572272) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:37:34,592] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:37:34,593] {logging_mixin.py:115} INFO - [2024-04-04 20:37:34,593] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:37:34,596] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:37:34,609] {logging_mixin.py:115} INFO - [2024-04-04 20:37:34,609] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:37:34,618] {logging_mixin.py:115} INFO - [2024-04-04 20:37:34,618] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:37:34.618228+00:00, run_after=2024-04-04T23:37:34.618228+00:00
+[2024-04-04 20:37:34,635] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.045 seconds
+[2024-04-04 20:38:07,839] {processor.py:153} INFO - Started process (PID=572405) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:38:07,842] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:38:07,842] {logging_mixin.py:115} INFO - [2024-04-04 20:38:07,842] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:38:07,846] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:38:07,857] {logging_mixin.py:115} INFO - [2024-04-04 20:38:07,857] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:38:07,868] {logging_mixin.py:115} INFO - [2024-04-04 20:38:07,868] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:38:07.868558+00:00, run_after=2024-04-04T23:38:07.868558+00:00
+[2024-04-04 20:38:07,884] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.047 seconds
+[2024-04-04 20:38:41,716] {processor.py:153} INFO - Started process (PID=572538) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:38:41,718] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:38:41,718] {logging_mixin.py:115} INFO - [2024-04-04 20:38:41,718] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:38:41,722] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:38:41,737] {logging_mixin.py:115} INFO - [2024-04-04 20:38:41,737] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:38:41,748] {logging_mixin.py:115} INFO - [2024-04-04 20:38:41,748] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:38:41.748043+00:00, run_after=2024-04-04T23:38:41.748043+00:00
+[2024-04-04 20:38:41,764] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.051 seconds
+[2024-04-04 20:39:16,157] {processor.py:153} INFO - Started process (PID=572673) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:39:16,158] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:39:16,158] {logging_mixin.py:115} INFO - [2024-04-04 20:39:16,158] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:39:16,161] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:39:16,179] {logging_mixin.py:115} INFO - [2024-04-04 20:39:16,179] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:39:16,197] {logging_mixin.py:115} INFO - [2024-04-04 20:39:16,197] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:39:16.197075+00:00, run_after=2024-04-04T23:39:16.197075+00:00
+[2024-04-04 20:39:16,219] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.064 seconds
+[2024-04-04 20:39:49,357] {processor.py:153} INFO - Started process (PID=572801) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:39:49,359] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:39:49,359] {logging_mixin.py:115} INFO - [2024-04-04 20:39:49,359] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:39:49,362] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:39:49,380] {logging_mixin.py:115} INFO - [2024-04-04 20:39:49,380] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:39:49,393] {logging_mixin.py:115} INFO - [2024-04-04 20:39:49,393] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:39:49.393354+00:00, run_after=2024-04-04T23:39:49.393354+00:00
+[2024-04-04 20:39:49,409] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.053 seconds
+[2024-04-04 20:40:23,592] {processor.py:153} INFO - Started process (PID=572940) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:40:23,594] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:40:23,595] {logging_mixin.py:115} INFO - [2024-04-04 20:40:23,595] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:40:23,598] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:40:23,614] {logging_mixin.py:115} INFO - [2024-04-04 20:40:23,614] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:40:23,632] {logging_mixin.py:115} INFO - [2024-04-04 20:40:23,632] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:40:23.631622+00:00, run_after=2024-04-04T23:40:23.631622+00:00
+[2024-04-04 20:40:23,655] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.066 seconds
+[2024-04-04 20:41:13,775] {processor.py:153} INFO - Started process (PID=573146) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:41:13,778] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:41:13,778] {logging_mixin.py:115} INFO - [2024-04-04 20:41:13,778] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:41:13,782] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:41:13,794] {logging_mixin.py:115} INFO - [2024-04-04 20:41:13,794] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:41:13,804] {logging_mixin.py:115} INFO - [2024-04-04 20:41:13,804] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:41:13.804233+00:00, run_after=2024-04-04T23:41:13.804233+00:00
+[2024-04-04 20:41:13,819] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.046 seconds
+[2024-04-04 20:41:48,494] {processor.py:153} INFO - Started process (PID=573294) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:41:48,497] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:41:48,497] {logging_mixin.py:115} INFO - [2024-04-04 20:41:48,497] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:41:48,500] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:41:48,513] {logging_mixin.py:115} INFO - [2024-04-04 20:41:48,513] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:41:48,524] {logging_mixin.py:115} INFO - [2024-04-04 20:41:48,524] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:41:48.524467+00:00, run_after=2024-04-04T23:41:48.524467+00:00
+[2024-04-04 20:41:48,541] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.049 seconds
+[2024-04-04 20:42:22,254] {processor.py:153} INFO - Started process (PID=573425) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:42:22,256] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:42:22,257] {logging_mixin.py:115} INFO - [2024-04-04 20:42:22,257] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:42:22,260] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:42:22,273] {logging_mixin.py:115} INFO - [2024-04-04 20:42:22,273] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:42:22,284] {logging_mixin.py:115} INFO - [2024-04-04 20:42:22,284] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:42:22.284221+00:00, run_after=2024-04-04T23:42:22.284221+00:00
+[2024-04-04 20:42:22,301] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2024-04-04 20:42:58,595] {processor.py:153} INFO - Started process (PID=573564) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:42:58,598] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:42:58,598] {logging_mixin.py:115} INFO - [2024-04-04 20:42:58,598] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:42:58,602] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:42:58,615] {logging_mixin.py:115} INFO - [2024-04-04 20:42:58,615] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:42:58,627] {logging_mixin.py:115} INFO - [2024-04-04 20:42:58,627] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:42:58.626921+00:00, run_after=2024-04-04T23:42:58.626921+00:00
+[2024-04-04 20:42:58,645] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.052 seconds
+[2024-04-04 20:43:33,050] {processor.py:153} INFO - Started process (PID=573703) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:43:33,052] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:43:33,052] {logging_mixin.py:115} INFO - [2024-04-04 20:43:33,052] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:43:33,055] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:43:33,072] {logging_mixin.py:115} INFO - [2024-04-04 20:43:33,072] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:43:33,092] {logging_mixin.py:115} INFO - [2024-04-04 20:43:33,092] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:43:33.092152+00:00, run_after=2024-04-04T23:43:33.092152+00:00
+[2024-04-04 20:43:33,120] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.072 seconds
+[2024-04-04 20:44:09,384] {processor.py:153} INFO - Started process (PID=573840) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:44:09,387] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:44:09,387] {logging_mixin.py:115} INFO - [2024-04-04 20:44:09,387] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:44:09,391] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:44:09,406] {logging_mixin.py:115} INFO - [2024-04-04 20:44:09,405] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:44:09,418] {logging_mixin.py:115} INFO - [2024-04-04 20:44:09,418] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:44:09.417880+00:00, run_after=2024-04-04T23:44:09.417880+00:00
+[2024-04-04 20:44:09,434] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.053 seconds
+[2024-04-04 20:44:41,956] {processor.py:153} INFO - Started process (PID=573971) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:44:41,957] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:44:41,957] {logging_mixin.py:115} INFO - [2024-04-04 20:44:41,957] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:44:41,961] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:44:41,973] {logging_mixin.py:115} INFO - [2024-04-04 20:44:41,973] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:44:41,984] {logging_mixin.py:115} INFO - [2024-04-04 20:44:41,983] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:44:41.983828+00:00, run_after=2024-04-04T23:44:41.983828+00:00
+[2024-04-04 20:44:42,002] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2024-04-04 20:45:17,630] {processor.py:153} INFO - Started process (PID=574110) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:45:17,633] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:45:17,634] {logging_mixin.py:115} INFO - [2024-04-04 20:45:17,634] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:45:17,637] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:45:17,649] {logging_mixin.py:115} INFO - [2024-04-04 20:45:17,649] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:45:17,659] {logging_mixin.py:115} INFO - [2024-04-04 20:45:17,659] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:45:17.659438+00:00, run_after=2024-04-04T23:45:17.659438+00:00
+[2024-04-04 20:45:17,675] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.050 seconds
+[2024-04-04 20:45:52,702] {processor.py:153} INFO - Started process (PID=574247) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:45:52,704] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:45:52,704] {logging_mixin.py:115} INFO - [2024-04-04 20:45:52,704] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:45:52,708] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:45:52,719] {logging_mixin.py:115} INFO - [2024-04-04 20:45:52,719] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:45:52,730] {logging_mixin.py:115} INFO - [2024-04-04 20:45:52,730] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:45:52.730448+00:00, run_after=2024-04-04T23:45:52.730448+00:00
+[2024-04-04 20:45:52,747] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2024-04-04 20:46:30,514] {processor.py:153} INFO - Started process (PID=574397) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:46:30,517] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:46:30,517] {logging_mixin.py:115} INFO - [2024-04-04 20:46:30,517] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:46:30,520] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:46:30,533] {logging_mixin.py:115} INFO - [2024-04-04 20:46:30,533] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:46:30,543] {logging_mixin.py:115} INFO - [2024-04-04 20:46:30,543] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:46:30.543120+00:00, run_after=2024-04-04T23:46:30.543120+00:00
+[2024-04-04 20:46:30,560] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.047 seconds
+[2024-04-04 20:47:03,621] {processor.py:153} INFO - Started process (PID=574541) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:47:03,624] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:47:03,624] {logging_mixin.py:115} INFO - [2024-04-04 20:47:03,624] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:47:03,628] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:47:03,640] {logging_mixin.py:115} INFO - [2024-04-04 20:47:03,640] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:47:03,650] {logging_mixin.py:115} INFO - [2024-04-04 20:47:03,650] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:47:03.650224+00:00, run_after=2024-04-04T23:47:03.650224+00:00
+[2024-04-04 20:47:03,667] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2024-04-04 20:47:35,388] {processor.py:153} INFO - Started process (PID=574665) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:47:35,391] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:47:35,391] {logging_mixin.py:115} INFO - [2024-04-04 20:47:35,391] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:47:35,394] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:47:35,407] {logging_mixin.py:115} INFO - [2024-04-04 20:47:35,407] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:47:35,417] {logging_mixin.py:115} INFO - [2024-04-04 20:47:35,417] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:47:35.416908+00:00, run_after=2024-04-04T23:47:35.416908+00:00
+[2024-04-04 20:47:35,433] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.048 seconds
+[2024-04-04 20:48:08,378] {processor.py:153} INFO - Started process (PID=574796) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:48:08,380] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:48:08,380] {logging_mixin.py:115} INFO - [2024-04-04 20:48:08,380] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:48:08,383] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:48:08,398] {logging_mixin.py:115} INFO - [2024-04-04 20:48:08,398] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:48:08,410] {logging_mixin.py:115} INFO - [2024-04-04 20:48:08,410] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:48:08.409934+00:00, run_after=2024-04-04T23:48:08.409934+00:00
+[2024-04-04 20:48:08,426] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.051 seconds
+[2024-04-04 20:48:44,435] {processor.py:153} INFO - Started process (PID=574939) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:48:44,438] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:48:44,438] {logging_mixin.py:115} INFO - [2024-04-04 20:48:44,438] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:48:44,443] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:48:44,454] {logging_mixin.py:115} INFO - [2024-04-04 20:48:44,454] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:48:44,465] {logging_mixin.py:115} INFO - [2024-04-04 20:48:44,464] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:48:44.464764+00:00, run_after=2024-04-04T23:48:44.464764+00:00
+[2024-04-04 20:48:44,481] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.049 seconds
+[2024-04-04 20:49:16,803] {processor.py:153} INFO - Started process (PID=575069) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:49:16,806] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:49:16,806] {logging_mixin.py:115} INFO - [2024-04-04 20:49:16,806] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:49:16,809] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:49:16,820] {logging_mixin.py:115} INFO - [2024-04-04 20:49:16,820] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:49:16,830] {logging_mixin.py:115} INFO - [2024-04-04 20:49:16,830] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:49:16.830082+00:00, run_after=2024-04-04T23:49:16.830082+00:00
+[2024-04-04 20:49:16,867] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.068 seconds
+[2024-04-04 20:49:50,092] {processor.py:153} INFO - Started process (PID=575202) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:49:50,095] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:49:50,096] {logging_mixin.py:115} INFO - [2024-04-04 20:49:50,096] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:49:50,099] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:49:50,113] {logging_mixin.py:115} INFO - [2024-04-04 20:49:50,113] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:49:50,124] {logging_mixin.py:115} INFO - [2024-04-04 20:49:50,124] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:49:50.124611+00:00, run_after=2024-04-04T23:49:50.124611+00:00
+[2024-04-04 20:49:50,141] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.052 seconds
+[2024-04-04 20:50:24,634] {processor.py:153} INFO - Started process (PID=575338) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:50:24,636] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:50:24,636] {logging_mixin.py:115} INFO - [2024-04-04 20:50:24,636] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:50:24,639] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:50:24,655] {logging_mixin.py:115} INFO - [2024-04-04 20:50:24,655] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:50:24,665] {logging_mixin.py:115} INFO - [2024-04-04 20:50:24,665] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:50:24.665155+00:00, run_after=2024-04-04T23:50:24.665155+00:00
+[2024-04-04 20:50:24,681] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.049 seconds
+[2024-04-04 20:51:01,361] {processor.py:153} INFO - Started process (PID=575479) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:51:01,364] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:51:01,365] {logging_mixin.py:115} INFO - [2024-04-04 20:51:01,365] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:51:01,368] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:51:01,380] {logging_mixin.py:115} INFO - [2024-04-04 20:51:01,380] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:51:01,391] {logging_mixin.py:115} INFO - [2024-04-04 20:51:01,391] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:51:01.391555+00:00, run_after=2024-04-04T23:51:01.391555+00:00
+[2024-04-04 20:51:01,412] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.052 seconds
+[2024-04-04 20:51:36,219] {processor.py:153} INFO - Started process (PID=575617) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:51:36,221] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:51:36,222] {logging_mixin.py:115} INFO - [2024-04-04 20:51:36,222] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:51:36,225] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:51:36,236] {logging_mixin.py:115} INFO - [2024-04-04 20:51:36,236] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:51:36,246] {logging_mixin.py:115} INFO - [2024-04-04 20:51:36,246] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:51:36.246401+00:00, run_after=2024-04-04T23:51:36.246401+00:00
+[2024-04-04 20:51:36,262] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.046 seconds
+[2024-04-04 20:52:10,370] {processor.py:153} INFO - Started process (PID=575747) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:52:10,372] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:52:10,372] {logging_mixin.py:115} INFO - [2024-04-04 20:52:10,372] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:52:10,376] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:52:10,392] {logging_mixin.py:115} INFO - [2024-04-04 20:52:10,391] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:52:10,404] {logging_mixin.py:115} INFO - [2024-04-04 20:52:10,404] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:52:10.404452+00:00, run_after=2024-04-04T23:52:10.404452+00:00
+[2024-04-04 20:52:10,421] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.053 seconds
+[2024-04-04 20:52:44,943] {processor.py:153} INFO - Started process (PID=575883) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:52:44,945] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:52:44,945] {logging_mixin.py:115} INFO - [2024-04-04 20:52:44,945] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:52:44,949] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:52:44,965] {logging_mixin.py:115} INFO - [2024-04-04 20:52:44,965] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:52:44,982] {logging_mixin.py:115} INFO - [2024-04-04 20:52:44,982] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:52:44.982154+00:00, run_after=2024-04-04T23:52:44.982154+00:00
+[2024-04-04 20:52:45,004] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.063 seconds
+[2024-04-04 20:53:19,068] {processor.py:153} INFO - Started process (PID=576014) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:53:19,072] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:53:19,073] {logging_mixin.py:115} INFO - [2024-04-04 20:53:19,073] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:53:19,076] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:53:19,093] {logging_mixin.py:115} INFO - [2024-04-04 20:53:19,093] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:53:19,107] {logging_mixin.py:115} INFO - [2024-04-04 20:53:19,107] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:53:19.107627+00:00, run_after=2024-04-04T23:53:19.107627+00:00
+[2024-04-04 20:53:19,128] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.062 seconds
+[2024-04-04 20:53:56,087] {processor.py:153} INFO - Started process (PID=576159) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:53:56,090] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:53:56,090] {logging_mixin.py:115} INFO - [2024-04-04 20:53:56,090] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:53:56,094] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:53:56,105] {logging_mixin.py:115} INFO - [2024-04-04 20:53:56,105] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:53:56,115] {logging_mixin.py:115} INFO - [2024-04-04 20:53:56,115] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:53:56.115535+00:00, run_after=2024-04-04T23:53:56.115535+00:00
+[2024-04-04 20:53:56,129] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.043 seconds
+[2024-04-04 20:54:29,401] {processor.py:153} INFO - Started process (PID=576290) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:54:29,404] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:54:29,404] {logging_mixin.py:115} INFO - [2024-04-04 20:54:29,404] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:54:29,407] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:54:29,418] {logging_mixin.py:115} INFO - [2024-04-04 20:54:29,418] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:54:29,428] {logging_mixin.py:115} INFO - [2024-04-04 20:54:29,428] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:54:29.427895+00:00, run_after=2024-04-04T23:54:29.427895+00:00
+[2024-04-04 20:54:29,444] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.045 seconds
+[2024-04-04 20:55:04,392] {processor.py:153} INFO - Started process (PID=576428) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:55:04,394] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:55:04,396] {logging_mixin.py:115} INFO - [2024-04-04 20:55:04,395] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:55:04,401] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:55:04,412] {logging_mixin.py:115} INFO - [2024-04-04 20:55:04,412] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:55:04,422] {logging_mixin.py:115} INFO - [2024-04-04 20:55:04,422] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:55:04.422498+00:00, run_after=2024-04-04T23:55:04.422498+00:00
+[2024-04-04 20:55:04,439] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.051 seconds
+[2024-04-04 20:55:37,092] {processor.py:153} INFO - Started process (PID=576553) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:55:37,094] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:55:37,094] {logging_mixin.py:115} INFO - [2024-04-04 20:55:37,094] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:55:37,098] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:55:37,109] {logging_mixin.py:115} INFO - [2024-04-04 20:55:37,109] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:55:37,119] {logging_mixin.py:115} INFO - [2024-04-04 20:55:37,119] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:55:37.119287+00:00, run_after=2024-04-04T23:55:37.119287+00:00
+[2024-04-04 20:55:37,135] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.046 seconds
+[2024-04-04 20:56:10,199] {processor.py:153} INFO - Started process (PID=576682) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:56:10,201] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:56:10,202] {logging_mixin.py:115} INFO - [2024-04-04 20:56:10,202] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:56:10,205] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:56:10,219] {logging_mixin.py:115} INFO - [2024-04-04 20:56:10,219] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:56:10,229] {logging_mixin.py:115} INFO - [2024-04-04 20:56:10,229] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:56:10.229409+00:00, run_after=2024-04-04T23:56:10.229409+00:00
+[2024-04-04 20:56:10,248] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.051 seconds
+[2024-04-04 20:56:45,159] {processor.py:153} INFO - Started process (PID=576819) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:56:45,161] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:56:45,162] {logging_mixin.py:115} INFO - [2024-04-04 20:56:45,161] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:56:45,165] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:56:45,178] {logging_mixin.py:115} INFO - [2024-04-04 20:56:45,177] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:56:45,188] {logging_mixin.py:115} INFO - [2024-04-04 20:56:45,188] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:56:45.188600+00:00, run_after=2024-04-04T23:56:45.188600+00:00
+[2024-04-04 20:56:45,204] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.047 seconds
+[2024-04-04 20:57:20,158] {processor.py:153} INFO - Started process (PID=576959) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:57:20,160] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:57:20,161] {logging_mixin.py:115} INFO - [2024-04-04 20:57:20,161] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:57:20,164] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:57:20,176] {logging_mixin.py:115} INFO - [2024-04-04 20:57:20,176] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:57:20,186] {logging_mixin.py:115} INFO - [2024-04-04 20:57:20,186] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:57:20.186252+00:00, run_after=2024-04-04T23:57:20.186252+00:00
+[2024-04-04 20:57:20,203] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.047 seconds
+[2024-04-04 20:57:52,616] {processor.py:153} INFO - Started process (PID=577088) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:57:52,618] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:57:52,618] {logging_mixin.py:115} INFO - [2024-04-04 20:57:52,618] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:57:52,621] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:57:52,633] {logging_mixin.py:115} INFO - [2024-04-04 20:57:52,633] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:57:52,643] {logging_mixin.py:115} INFO - [2024-04-04 20:57:52,643] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:57:52.643173+00:00, run_after=2024-04-04T23:57:52.643173+00:00
+[2024-04-04 20:57:52,660] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.046 seconds
+[2024-04-04 20:58:28,433] {processor.py:153} INFO - Started process (PID=577226) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:58:28,435] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:58:28,436] {logging_mixin.py:115} INFO - [2024-04-04 20:58:28,436] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:58:28,439] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:58:28,457] {logging_mixin.py:115} INFO - [2024-04-04 20:58:28,457] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:58:28,472] {logging_mixin.py:115} INFO - [2024-04-04 20:58:28,472] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:58:28.472288+00:00, run_after=2024-04-04T23:58:28.472288+00:00
+[2024-04-04 20:58:28,489] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.058 seconds
+[2024-04-04 20:59:02,757] {processor.py:153} INFO - Started process (PID=577359) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:59:02,760] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:59:02,760] {logging_mixin.py:115} INFO - [2024-04-04 20:59:02,760] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:59:02,763] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:59:02,777] {logging_mixin.py:115} INFO - [2024-04-04 20:59:02,777] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:59:02,788] {logging_mixin.py:115} INFO - [2024-04-04 20:59:02,788] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:59:02.788439+00:00, run_after=2024-04-04T23:59:02.788439+00:00
+[2024-04-04 20:59:02,804] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.050 seconds
+[2024-04-04 20:59:33,611] {processor.py:153} INFO - Started process (PID=577481) to work on /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:59:33,614] {processor.py:641} INFO - Processing file /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-04 20:59:33,614] {logging_mixin.py:115} INFO - [2024-04-04 20:59:33,614] {dagbag.py:507} INFO - Filling up the DagBag from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:59:33,618] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-04 20:59:33,630] {logging_mixin.py:115} INFO - [2024-04-04 20:59:33,630] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-04 20:59:33,640] {logging_mixin.py:115} INFO - [2024-04-04 20:59:33,640] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2024-04-03T23:59:33.640188+00:00, run_after=2024-04-04T23:59:33.640188+00:00
+[2024-04-04 20:59:33,656] {processor.py:161} INFO - Processing /home/dimitri/dimitri/airflowalura/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.047 seconds
